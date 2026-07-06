@@ -1,0 +1,18 @@
+<svg width="640" height="640" viewBox="0 0 640 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wrench" x1="172" y1="128" x2="472" y2="492" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FAFC"/>
+      <stop offset="0.4" stop-color="#CBD5E1"/>
+      <stop offset="1" stop-color="#1E293B"/>
+    </linearGradient>
+    <radialGradient id="accent" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(450 198) rotate(90) scale(128 128)">
+      <stop stop-color="#DC2626" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#DC2626" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <ellipse cx="438" cy="196" rx="114" ry="114" fill="url(#accent)"/>
+  <path d="M420.279 93.5184C457.448 90.0692 493.151 104.641 519.864 131.354L473.168 178.049C462.66 188.558 462.66 205.596 473.168 216.104L506.482 249.419C516.991 259.927 534.029 259.927 544.537 249.419L591.232 202.723C617.945 229.437 632.517 265.139 629.068 302.309C624.566 350.844 591.648 392.36 546.564 407.743C519.014 417.144 489.317 417.573 462.221 409.82L247.274 624.767C233.702 638.339 211.695 638.339 198.123 624.767L94.5334 521.177C80.9612 507.605 80.9612 485.598 94.5334 472.026L309.48 257.079C301.727 229.983 302.156 200.286 311.557 172.736C326.94 127.652 368.456 94.734 416.991 90.2323L420.279 93.5184Z" fill="url(#wrench)"/>
+  <path d="M175.858 472.876L247.124 544.142" stroke="#0F172A" stroke-width="18" stroke-linecap="round" stroke-opacity="0.42"/>
+  <path d="M140.787 507.947L212.053 579.213" stroke="#0F172A" stroke-width="18" stroke-linecap="round" stroke-opacity="0.42"/>
+  <circle cx="521" cy="194" r="34" fill="#DC2626"/>
+</svg>

@@ -1,0 +1,20 @@
+<svg width="640" height="640" viewBox="0 0 640 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="steel" x1="184" y1="134" x2="464" y2="506" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FAFC"/>
+      <stop offset="0.38" stop-color="#CBD5E1"/>
+      <stop offset="1" stop-color="#334155"/>
+    </linearGradient>
+    <linearGradient id="blueprint" x1="140" y1="164" x2="470" y2="450" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#1D4ED8"/>
+    </linearGradient>
+  </defs>
+  <path d="M214 106C214 81.6995 233.699 62 258 62H382C406.301 62 426 81.6995 426 106V150H214V106Z" fill="url(#steel)"/>
+  <path d="M278 150H362L500 560H418L320 278L222 560H140L278 150Z" fill="url(#steel)"/>
+  <path d="M228 402H413" stroke="url(#blueprint)" stroke-width="10" stroke-linecap="round" stroke-opacity="0.62"/>
+  <path d="M206 468H437" stroke="url(#blueprint)" stroke-width="10" stroke-linecap="round" stroke-opacity="0.62"/>
+  <path d="M324 278L418 560" stroke="#0F172A" stroke-width="12" stroke-linecap="round" stroke-opacity="0.3"/>
+  <circle cx="320" cy="278" r="28" fill="#E2E8F0"/>
+  <circle cx="320" cy="278" r="12" fill="#1D4ED8"/>
+</svg>

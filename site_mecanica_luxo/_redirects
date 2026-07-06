@@ -1,0 +1,6 @@
+# Bloquear acesso direto a arquivos JSON e proteger diretórios de dados
+/*.json   /index.html  403!
+/data/*   /index.html  403!
+
+# Redirecionamento padrão para fallback SPA / Proteção de rotas inexistentes
+/*        /index.html  200

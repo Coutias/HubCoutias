@@ -1,0 +1,34 @@
+<svg width="640" height="640" viewBox="0 0 640 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="metalBody" x1="165" y1="152" x2="484" y2="488" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F9FAFB"/>
+      <stop offset="0.42" stop-color="#CBD5E1"/>
+      <stop offset="0.75" stop-color="#64748B"/>
+      <stop offset="1" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="metalEdge" x1="230" y1="214" x2="422" y2="403" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E2E8F0"/>
+      <stop offset="1" stop-color="#334155"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(347 301) rotate(90) scale(196 182)">
+      <stop stop-color="#93C5FD" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#93C5FD" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="62" y="83" width="513" height="487" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="30" stdDeviation="28" flood-color="#0F172A" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+  <ellipse cx="320" cy="322" rx="212" ry="188" fill="url(#glow)"/>
+  <g filter="url(#shadow)">
+    <path d="M252.389 123.579C260.199 115.769 272.861 115.769 280.671 123.579L509.421 352.329C517.231 360.139 517.231 372.801 509.421 380.611L466.283 423.749C458.473 431.559 445.811 431.559 438.001 423.749L209.251 194.999C201.441 187.189 201.441 174.527 209.251 166.717L252.389 123.579Z" fill="url(#metalBody)"/>
+    <path d="M301.994 158.425L474.575 331.006C477.7 334.131 477.7 339.198 474.575 342.32L429.595 387.301C426.473 390.426 421.406 390.426 418.281 387.301L245.7 214.723C242.575 211.598 242.575 206.531 245.7 203.406L290.678 158.425C293.803 155.3 298.869 155.3 301.994 158.425Z" fill="url(#metalEdge)"/>
+    <path d="M184.675 192.522L438.478 446.323C441.603 449.448 441.603 454.515 438.478 457.64L415.851 480.267C412.729 483.392 407.662 483.392 404.537 480.267L150.734 226.464C147.609 223.339 147.609 218.272 150.734 215.147L173.361 192.522C176.486 189.397 181.55 189.397 184.675 192.522Z" fill="#0F172A"/>
+    <path d="M143.542 233.652L220.346 310.456L130.814 400.989C112.451 419.351 82.68 419.351 64.3175 400.989V400.989C45.955 382.626 45.955 352.855 64.3175 334.493L143.542 255.268C149.44 249.37 149.44 239.549 143.542 233.652V233.652Z" fill="#1E293B"/>
+    <path d="M178.851 268.962L241.054 331.165L154.684 417.535C149.517 422.703 141.141 422.703 135.973 417.535L92.4816 374.044C87.3142 368.876 87.3142 360.501 92.4816 355.333L178.851 268.962Z" fill="#0F172A"/>
+    <path d="M192.14 282.249L227.764 317.872L305.664 239.972L270.04 204.349L192.14 282.249Z" fill="#94A3B8"/>
+    <path d="M347.216 113.717L519.283 285.783" stroke="#E2E8F0" stroke-width="10" stroke-linecap="round" stroke-opacity="0.75"/>
+    <path d="M330.952 131.106L502.895 303.05" stroke="#60A5FA" stroke-width="4" stroke-linecap="round" stroke-opacity="0.7"/>
+    <circle cx="121.204" cy="387.204" r="18" fill="#94A3B8"/>
+    <circle cx="366.266" cy="178.266" r="13" fill="#E2E8F0" fill-opacity="0.84"/>
+  </g>
+</svg>

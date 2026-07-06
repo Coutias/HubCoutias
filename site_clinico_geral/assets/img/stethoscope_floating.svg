@@ -1,0 +1,19 @@
+<svg width="640" height="640" viewBox="0 0 640 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="tube" x1="177" y1="159" x2="481" y2="482" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#1D4ED8"/>
+    </linearGradient>
+    <linearGradient id="metal" x1="211" y1="163" x2="423" y2="440" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FAFC"/>
+      <stop offset="1" stop-color="#64748B"/>
+    </linearGradient>
+  </defs>
+  <path d="M218 102V211C218 269.542 265.458 317 324 317V317C382.542 317 430 269.542 430 211V102" stroke="url(#tube)" stroke-width="34" stroke-linecap="round"/>
+  <path d="M218 108C218 90.3269 203.673 76 186 76V76C168.327 76 154 90.3269 154 108V164C154 181.673 168.327 196 186 196V196C203.673 196 218 181.673 218 164V108Z" fill="url(#metal)"/>
+  <path d="M494 108C494 90.3269 479.673 76 462 76V76C444.327 76 430 90.3269 430 108V164C430 181.673 444.327 196 462 196V196C479.673 196 494 181.673 494 164V108Z" fill="url(#metal)"/>
+  <path d="M323 316V386C323 439.019 365.981 482 419 482H436" stroke="url(#tube)" stroke-width="34" stroke-linecap="round"/>
+  <circle cx="470" cy="481" r="72" fill="#0F172A"/>
+  <circle cx="470" cy="481" r="48" fill="url(#metal)"/>
+  <circle cx="470" cy="481" r="22" fill="#E0F2FE"/>
+</svg>

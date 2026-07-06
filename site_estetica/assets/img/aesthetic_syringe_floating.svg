@@ -1,0 +1,21 @@
+<svg width="640" height="640" viewBox="0 0 640 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="glass" x1="236" y1="147" x2="409" y2="486" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FDF2F8"/>
+      <stop offset="0.55" stop-color="#FBCFE8"/>
+      <stop offset="1" stop-color="#CBD5E1"/>
+    </linearGradient>
+    <linearGradient id="metal" x1="175" y1="110" x2="474" y2="476" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FAFC"/>
+      <stop offset="1" stop-color="#94A3B8"/>
+    </linearGradient>
+  </defs>
+  <path d="M180.32 155.244C187.841 147.723 200.035 147.723 207.556 155.244L480.756 428.444C488.277 435.965 488.277 448.159 480.756 455.68L455.68 480.756C448.159 488.277 435.965 488.277 428.444 480.756L155.244 207.556C147.723 200.035 147.723 187.841 155.244 180.32L180.32 155.244Z" fill="url(#metal)"/>
+  <path d="M221.242 178.224L457.776 414.758L404.084 468.451L167.55 231.917L221.242 178.224Z" fill="url(#glass)"/>
+  <path d="M269.646 226.629L409.373 366.356" stroke="#F472B6" stroke-width="22" stroke-linecap="round" stroke-opacity="0.62"/>
+  <path d="M210.924 238.545L394.945 54.5229" stroke="#94A3B8" stroke-width="22" stroke-linecap="round"/>
+  <path d="M406.418 43.0505L435.122 71.7543" stroke="#0F172A" stroke-width="16" stroke-linecap="round"/>
+  <path d="M365.928 83.541L394.632 112.245" stroke="#0F172A" stroke-width="16" stroke-linecap="round"/>
+  <path d="M114.637 343.221L297.057 160.801" stroke="#0F172A" stroke-width="10" stroke-linecap="round" stroke-opacity="0.32"/>
+  <circle cx="472" cy="448" r="22" fill="#F9A8D4"/>
+</svg>

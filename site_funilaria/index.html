@@ -1,0 +1,587 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR" data-site-key="site_funilaria">
+<head>
+    <script src="assets/js/security-client.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veloce Detailing | Estética Automotiva Premium</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <svg class="site-symbols" aria-hidden="true" focusable="false">
+        <symbol id="icon-whatsapp" viewBox="0 0 32 32">
+            <path d="M16 3.25c-7.06 0-12.8 5.55-12.8 12.39 0 2.19.6 4.32 1.73 6.18L3.1 28.75l7.19-1.78A13.1 13.1 0 0 0 16 28.02c7.06 0 12.8-5.55 12.8-12.38S23.06 3.25 16 3.25Zm0 22.63c-1.83 0-3.62-.47-5.18-1.36l-.37-.21-4.26 1.05 1.08-4.05-.25-.4a10.01 10.01 0 0 1-1.67-5.27C5.35 9.98 10.13 5.38 16 5.38s10.65 4.6 10.65 10.26S21.87 25.88 16 25.88Zm5.96-7.67c-.33-.16-1.94-.93-2.24-1.04-.3-.11-.52-.16-.74.16-.21.32-.85 1.04-1.04 1.25-.19.22-.38.24-.71.08-.33-.16-1.39-.5-2.65-1.6-.98-.85-1.64-1.9-1.83-2.22-.19-.32-.02-.5.14-.66.15-.14.33-.38.49-.57.16-.19.21-.32.33-.54.11-.22.05-.41-.03-.57-.08-.16-.74-1.73-1.02-2.37-.27-.62-.54-.54-.74-.55h-.63c-.22 0-.57.08-.87.41-.3.32-1.15 1.09-1.15 2.65s1.18 3.08 1.34 3.29c.16.22 2.32 3.44 5.62 4.82.79.33 1.4.53 1.88.68.79.24 1.51.21 2.08.13.63-.09 1.94-.77 2.22-1.52.27-.75.27-1.39.19-1.52-.08-.13-.3-.21-.63-.37Z"/>
+        </symbol>
+        <symbol id="icon-google-maps" viewBox="0 0 32 32">
+            <path fill="#34A853" d="M16 30s8.8-8.42 8.8-17.2A8.8 8.8 0 0 0 16 4v26Z"/>
+            <path fill="#4285F4" d="M16 30S7.2 21.58 7.2 12.8A8.8 8.8 0 0 1 16 4v8.2l-3.66 4.98L16 30Z"/>
+            <path fill="#FBBC04" d="M7.2 12.8c0 1.68.32 3.34.85 4.92L16 30l-3.66-12.82L7.2 12.8Z"/>
+            <path fill="#EA4335" d="M16 4a8.8 8.8 0 0 1 8.8 8.8c0 1.52-.27 3.03-.73 4.47L16 12.2V4Z"/>
+            <circle cx="16" cy="12.8" r="3.1" fill="#fff"/>
+        </symbol>
+        <symbol id="icon-waze" viewBox="0 0 32 32">
+            <path fill="#33CCFF" d="M15.65 4.35c6.42 0 11.25 4.22 11.25 10.16 0 5.61-4.33 9.76-10.15 10.26a12.35 12.35 0 0 1-5.65-.79l-4.85 2.1 1.51-4.77c-1.67-1.54-2.46-3.44-2.46-5.43 0-6.46 4.19-11.53 10.35-11.53Z"/>
+            <path fill="#fff" d="M15.65 6.8c-4.74 0-7.9 3.9-7.9 9.08 0 1.52.61 2.92 1.93 4.04l.58.5-.62 1.96 1.83-.79.52.24c1.38.61 2.88.87 4.52.73 4.54-.39 7.94-3.58 7.94-8.05 0-4.51-3.72-7.71-8.8-7.71Z"/>
+            <path fill="#111827" d="M12.07 13.28a1.28 1.28 0 1 0 0-2.56 1.28 1.28 0 0 0 0 2.56Zm7.1 0a1.28 1.28 0 1 0 0-2.56 1.28 1.28 0 0 0 0 2.56Zm-7.64 3.26c2.07 1.72 5.23 1.72 7.3 0l1.45 1.72c-2.94 2.46-7.27 2.46-10.21 0l1.46-1.72Zm-3.82 8.95a2.25 2.25 0 1 0 0 4.5 2.25 2.25 0 0 0 0-4.5Zm16.04 0a2.25 2.25 0 1 0 0 4.5 2.25 2.25 0 0 0 0-4.5Z"/>
+        </symbol>
+        <symbol id="icon-instagram" viewBox="0 0 32 32">
+            <path fill="currentColor" d="M9.44 3.25h13.12c3.42 0 6.19 2.77 6.19 6.19v13.12c0 3.42-2.77 6.19-6.19 6.19H9.44c-3.42 0-6.19-2.77-6.19-6.19V9.44c0-3.42 2.77-6.19 6.19-6.19Zm-.2 3.16c-1.82 0-3.3 1.48-3.3 3.3v12.58c0 1.82 1.48 3.3 3.3 3.3h12.58c1.82 0 3.3-1.48 3.3-3.3V9.71c0-1.82-1.48-3.3-3.3-3.3H9.24Zm13.95 2.38a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM16 10.5A5.5 5.5 0 1 1 10.5 16 5.5 5.5 0 0 1 16 10.5Zm0 2.9A2.6 2.6 0 1 0 18.6 16 2.6 2.6 0 0 0 16 13.4Z"/>
+        </symbol>    </svg>
+    <header class="header">
+    <script src="assets/js/security-client.js"></script>
+        <div class="container header-content">
+            <div class="logo">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="logo-icon text-gradient"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path></svg>
+                <span>Veloce Detailing</span>
+            </div>
+            <nav class="nav">
+                <a href="#inicio">Início</a>
+                <a href="#solucoes">Serviços</a>
+                <a href="#faq">FAQ</a>
+                <a href="#localizacao">Localização</a>
+            </nav>
+            <a href="#contato" class="btn btn-outline">Agendar</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Premium -->
+        <section class="hero" id="inicio">
+            <div class="hero-bg-image" aria-hidden="true"></div>
+            <div class="hero-glow"></div>
+            
+            <div class="container hero-container">
+                <div class="hero-text fade-up">
+                    <span class="badge">Detalhamento Automotivo de Elite</span>
+                    <h1 class="hero-title">PROTEÇÃO E BRILHO ABSOLUTO PARA O SEU <br><span class="text-gradient">VEÍCULO.</span></h1>
+                    <p class="hero-desc">Vitrificação de pintura homologada, polimento técnico corretivo e higienização detalhada sob medida para motoristas exigentes.</p>
+                    <div class="hero-buttons">
+                        <a href="#contato" class="btn btn-primary">Agendar Avaliação <svg width="16" height="16" viewBox="0 0 32 32" fill="currentColor" aria-hidden="true"><use href="#icon-whatsapp"></use></svg></a>
+                        <a href="#solucoes" class="btn btn-ghost">Nossos Serviços</a>
+                    </div>
+
+                    <!-- Glass Card Flutuante 1 -->
+                    <div class="glass-card floating-card-1">
+                        <div class="glass-card-header">
+                            <img src="assets/img/hero-professional-avatar.png" alt="" class="avatar" width="640" height="640" loading="lazy" decoding="async">
+                            <div>
+                                <h4>Marcelo Couto</h4>
+                                <p>Estética e proteção premium</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-visual fade-in-right">
+                    <img src="assets/img/hero-professional.png" alt="Profissional responsavel pelo atendimento" class="hero-person" width="1024" height="1536" decoding="async">
+                    <div class="hero-front-panel">
+                        <span>Detailer Chefe</span>
+                        <strong>Marcelo Couto</strong>
+                        <small>Estética Automotiva de Elite</small>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Serviços -->
+        <section class="services" id="solucoes">
+            <div class="container content-wrapper">
+                <div class="services-layout">
+                    <div class="services-content">
+                        <div class="section-header fade-up">
+                            <h2 class="section-title">Especialidades</h2>
+                        </div>
+                        <div class="services-grid">
+                            <div class="service-card fade-up" style="transition-delay: 0.1s;">
+                                <div class="icon-box">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"></path></svg>
+                                </div>
+                                <h3>Vitrificação de Pintura</h3>
+                                <p>Aplicação de revestimento cerâmico (glass coating) de alta performance. Protege contra raios UV, seiva de árvore, fezes de pássaros e riscos leves, garantindo efeito hidrofóbico e brilho profundo.</p>
+                            </div>
+                            <div class="service-card fade-up" style="transition-delay: 0.2s;">
+                                <div class="icon-box">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
+                                </div>
+                                <h3>Polimento Técnico</h3>
+                                <p>Correção profunda de pintura para remoção de hologramas, riscos superficiais e imperfeições do verniz, devolvendo o reflexo espelhado original do carro.</p>
+                            </div>
+                            <div class="service-card fade-up" style="transition-delay: 0.3s;">
+                                <div class="icon-box">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+                                </div>
+                                <h3>Higienização Detalhada</h3>
+                                <p>Limpeza minuciosa do interior com produtos alemães de pH neutro, hidratação de couros e higienização do sistema de ar-condicionado por oxi-sanitização.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="services-visual fade-in-right" aria-hidden="true">
+                        <img src="assets/img/car_dent_repair_3d.png" alt="" class="services-floating-asset" loading="lazy" decoding="async" style="--asset-rotate: -8deg;">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="faq-section" id="faq">
+            <div class="container content-wrapper">
+                <div class="faq-layout">
+                    <div class="faq-intro fade-up">
+                        <span class="badge">Dúvidas Frequentes</span>
+                        <h2 class="section-title">O que você precisa saber antes do detalhamento.</h2>
+                        <p>Transparência total desde o primeiro contato. Entenda nosso processo e diferenciais.</p>
+                    </div>
+
+                    <div class="faq-list" style="position: relative; z-index: 1;">
+                        <img src="assets/img/paint_spray_gun_3d.png" alt="" class="floating-faq-asset" loading="lazy" decoding="async" aria-hidden="true" style="--faq-rotate: 7deg;">
+                        <details class="faq-item fade-up" open>
+                            <summary>Por que não posso levar meu importado em qualquer mecânica?</summary>
+                            <p>Oficinas comuns não possuem scanners específicos para marcas premium. O que parece um conserto simples pode danificar o módulo eletrônico e custar milhares de reais.</p>
+                        </details>
+                        <details class="faq-item fade-up">
+                            <summary>Como funciona o diagnóstico de vocês?</summary>
+                            <p>Utilizamos equipamentos de nível concessionária para rastrear todo o sistema do carro, encontrando a raiz do problema com exatidão e sem "achismos".</p>
+                        </details>
+                        <details class="faq-item fade-up">
+                            <summary>Vocês utilizam peças originais?</summary>
+                            <p>Sim. Trabalhamos exclusivamente com peças genuínas (OEM) e fluidos homologados pela montadora para garantir durabilidade e máxima performance.</p>
+                        </details>
+                        <details class="faq-item fade-up">
+                            <summary>Meu carro está na garantia. Perco ela se fizer a revisão com vocês?</summary>
+                            <p>Não. Seguimos rigorosamente as normas e especificações do manual do fabricante, garantindo que o seu veículo mantenha os padrões exigidos para manter a garantia.</p>
+                        </details>
+                        <details class="faq-item fade-up">
+                            <summary>Quanto tempo meu carro fica parado?</summary>
+                            <p>A transparência é nossa prioridade. Após o diagnóstico, fornecemos um cronograma detalhado de execução. Nossa logística eficiente reduz muito o tempo de espera por peças importadas.</p>
+                        </details>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contato -->
+        <section class="contact-section" id="contato">
+            <div class="container content-wrapper">
+                <div class="contact-layout">
+                    <div class="contact-copy fade-up">
+                        <span class="badge">Primeiro contato</span>
+                        <h2 class="section-title">Agende seu diagnóstico agora.</h2>
+                        <p>Preencha os dados abaixo e o site abre o WhatsApp com as informações prontas para nossa equipe técnica analisar e agendar seu horário.</p>
+                    </div>
+
+                    <form class="whatsapp-contact-form fade-in-right" data-whatsapp-form novalidate>
+                        <div class="form-grid">
+                            <div class="form-field">
+                                <label for="lead-name">Nome</label>
+                                <input id="lead-name" name="name" type="text" autocomplete="name" maxlength="80" required placeholder="Seu nome">
+                            </div>
+                            <div class="form-field">
+                                <label for="lead-phone">WhatsApp</label>
+                                <input id="lead-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" maxlength="16" required placeholder="(11) 9 0000-0000">
+                            </div>
+                            <div class="form-field">
+                                <label for="lead-area">Serviço Desejado</label>
+                                <select id="lead-area" name="area" required>
+                                    <option value="">Escolha uma opção</option>
+                                    <option value="vitrificacao">Vitrificação / Proteção cerâmica</option>
+                                    <option value="polimento">Polimento técnico / Correção de pintura</option>
+                                    <option value="higienizacao">Higienização detalhada interna</option>
+                                    <option value="outro">Outro Serviço</option>
+                                </select>
+                            </div>
+                            <div class="form-field">
+                                <label for="lead-urgency">Status do Veículo</label>
+                                <select id="lead-urgency" name="urgency" required>
+                                    <option value="">Escolha uma opção</option>
+                                    <option value="urgente">Gostaria de agendar para esta semana</option>
+                                    <option value="planejado">Quero planejar para o próximo mês</option>
+                                    <option value="orcamento">Apenas orçamento inicial</option>
+                                </select>
+                            </div>
+                            <div class="form-field form-field-full">
+                                <label for="lead-summary">Detalhes do Veículo e Desejo</label>
+                                <textarea id="lead-summary" name="summary" maxlength="600" minlength="20" required placeholder="Informe a marca, modelo, ano do carro e qual o estado atual dele ou o que gostaria de melhorar."></textarea>
+                                <span class="form-hint"><span data-summary-count>0</span>/600 caracteres</span>
+                            </div>
+                            <div class="form-honeypot" aria-hidden="true">
+                                <label for="lead-company">Empresa</label>
+                                <input id="lead-company" name="company" type="text" tabindex="-1" autocomplete="off">
+                            </div>
+                        </div>
+
+                        <div class="form-field-checkbox">
+                            <label for="lead-auth" class="checkbox-label" style="display: flex; align-items: center; gap: 0.75rem; cursor: pointer; color: var(--text-muted); margin-top: 1.5rem; font-size: 0.95rem;">
+                                <input type="checkbox" id="lead-auth" name="auth" checked required style="width: 1.25rem; height: 1.25rem; cursor: pointer; accent-color: var(--primary);">
+                                Autorizo montar a mensagem com esses dados para envio pelo WhatsApp.
+                            </label>
+                        </div>
+
+                        <p class="form-feedback" data-form-feedback role="alert" aria-live="polite"></p>
+
+                        <button type="submit" class="btn btn-primary form-submit">
+                            Enviar pelo WhatsApp
+                            <svg width="18" height="18" viewBox="0 0 32 32" fill="currentColor" aria-hidden="true"><use href="#icon-whatsapp"></use></svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Localização com Maps e Waze -->
+        <section class="location-section" id="localizacao">
+            <div class="container content-wrapper">
+                <div class="location-grid">
+                    <div class="location-info fade-up">
+                        <span class="badge">Chegue com Facilidade</span>
+                        <h2 class="section-title">Conheça nossa estrutura de estética automotiva.</h2>
+                        <p class="location-desc">Boxes de iluminação técnica de alta definição, controle de temperatura e poeira, e segurança monitorada 24h para o seu veículo.</p>
+                        
+                        <div class="contact-details address-showcase">
+                            <div class="detail-item">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                <span>Avenida das Nações Unidas, 12345 - Brooklin, São Paulo - SP</span>
+                            </div>
+                        </div>
+
+                        <div class="map-buttons">
+                            <a href="https://waze.com/ul?q=Av.%20das%20Nações%20Unidas%2C%2012345%20-%20São%20Paulo%20-%20SP&navigate=yes" class="btn btn-waze" target="_blank" rel="noopener noreferrer">
+                                <svg class="brand-icon" viewBox="0 0 64 64" aria-hidden="true">
+                                    <path fill="#ffffff" d="M29.7 8C16.1 8 5 18.2 5 30.8c0 5.4 2 10.5 5.6 14.5-.8 3.4-2.8 6.5-5.6 8.7 4.8.5 9.6-.8 13.4-3.5 3.5 1.7 7.5 2.7 11.8 2.7H36c12.7 0 23-9.5 23-21.2S48.7 10.8 36 10.8c-2.2 0-4.3.3-6.3.9z"/>
+                                    <path fill="#111111" d="M31.1 3.5c-16 0-29 12.1-29 27 0 6 2.1 11.8 6 16.4-.8 4-3 7.6-6.3 10.3-.7.5-.9 1.5-.6 2.2.3.8 1.1 1.3 1.9 1.4 5.7.5 11.3-.7 16-3.4 3.8 1.5 7.8 2.2 12 2.2h6.3c14.8 0 26.8-11 26.8-24.6S52.2 10.4 37.4 10.4c-2.1 0-4.3.2-6.3.6zM37.4 14.5c12.5 0 22.7 9.2 22.7 20.5S49.9 55.5 37.4 55.5h-6.3c-4 0-7.8-.8-11.2-2.4-.7-.3-1.5-.3-2.1.2-2.7 1.9-5.9 3.1-9.2 3.4 1.9-2.3 3.3-5 3.9-7.9.2-.7 0-1.5-.5-2-3.7-4-5.8-9.1-5.8-14.4 0-12.6 11.1-22.9 24.9-22.9 2 0 4.1.2 6.1.7.4.1.8.1 1.2 0 0 0-.6-.7-.9-1.5-.4-.8-.4-1.8-.1-2.6z"/>
+                                    <circle cx="24" cy="30.5" r="3.6" fill="#111111"/>
+                                    <circle cx="40.9" cy="30.5" r="3.6" fill="#111111"/>
+                                    <path fill="#111111" d="M47.3 42.8c-2.6 4.9-7.2 7.5-13.4 7.5s-10.8-2.6-13.4-7.5c-.5-1-.2-2.2.8-2.8 1-.5 2.2-.2 2.8.8 1.9 3.6 5 5.3 9.8 5.3s7.9-1.7 9.8-5.3c.5-1 1.8-1.3 2.8-.8 1 .6 1.3 1.8.8 2.8z"/>
+                                    <circle cx="22.7" cy="58.2" r="4.2" fill="#111111"/>
+                                    <circle cx="43.7" cy="58.2" r="4.2" fill="#111111"/>
+                                </svg>
+                                Rota pelo Waze
+                            </a>
+                            <a href="https://www.google.com/maps/search/?api=1&query=Av.%20das%20Nações%20Unidas%2C%2012345%20-%20São%20Paulo%20-%20SP" class="btn btn-maps" target="_blank" rel="noopener noreferrer">
+                                <svg class="brand-icon" viewBox="0 0 64 64" aria-hidden="true">
+                                    <path fill="#ea4335" d="M32 4c-11.8 0-21.3 9.5-21.3 21.3 0 16 18.8 33.8 20.9 35.8a.6.6 0 0 0 .8 0c2-2 20.9-19.8 20.9-35.8C53.3 13.5 43.8 4 32 4z"/>
+                                    <circle cx="32" cy="25.3" r="9.8" fill="#ffffff"/>
+                                    <path fill="#1a73e8" d="M32 17.8a7.5 7.5 0 1 1 0 15a7.5 7.5 0 0 1 0-15z"/>
+                                    <path fill="#188038" d="M11 52.5h42a2 2 0 0 1 0 4H11a2 2 0 0 1 0-4z"/>
+                                </svg>
+                                Google Maps
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="map-container fade-in-right">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.326252989189!2d-46.6970172!3d-23.6069695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce50cd12c3f56f%3A0x67e3a6bbbe9042b7!2sAv.%20das%20Na%C3%A7%C3%B5es%20Unidas%2C%2012345%20-%20Brooklin%20Paulista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2004578-000!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container text-center">
+            <p>&copy; <span data-current-date>2026</span> <span id="footer-brand">Veloce Detailing</span>. <span data-i18n="footerRights">Todos os direitos reservados.</span></p>
+            <p style="margin-top: 0.5rem; font-size: 0.9em; opacity: 0.8;">Feito com ❤️ por <a href="https://instagram.com/studiocoutias" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: underline;">@studiocoutias</a></p>
+        </div>
+    </footer>
+
+    <div class="floating-socials" aria-label="Atalhos de contato">
+        <a href="https://instagram.com/studiocoutias" class="instagram-fab" target="_blank" rel="noopener noreferrer" aria-label="Abrir Instagram">
+            <svg viewBox="0 0 32 32" fill="currentColor" aria-hidden="true"><use href="#icon-instagram"></use></svg>
+        </a>
+        <a href="https://api.whatsapp.com/send/?phone=5575981886263&text=Ol%C3%A1%2C%20quero%20agendar%20um%20diagn%C3%B3stico." class="whatsapp-fab" target="_blank" rel="noopener noreferrer" aria-label="Falar pelo WhatsApp">
+            <svg viewBox="0 0 32 32" fill="currentColor" aria-hidden="true"><use href="#icon-whatsapp"></use></svg>
+        </a>
+    </div>
+
+    <script src="assets/js/language-switcher.js"></script>
+    <script>
+        // Forçar o site a voltar ao topo no F5/Recarregar
+        if ('scrollRestoration' in history) {
+            history.scrollRestoration = 'manual';
+        }
+        window.scrollTo(0, 0);
+
+        // Smooth Scroll & Animations Observer
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('is-visible');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        const animatedElements = document.querySelectorAll('.fade-up, .fade-in-right, .fade-in-left');
+        const revealIfVisible = (el) => {
+            const rect = el.getBoundingClientRect();
+            if (rect.top < window.innerHeight * 0.95 && rect.bottom > 0) {
+                el.classList.add('is-visible');
+            }
+        };
+
+        animatedElements.forEach((el) => {
+            observer.observe(el);
+            revealIfVisible(el);
+        });
+
+        window.addEventListener('load', () => {
+            animatedElements.forEach(revealIfVisible);
+        }, { once: true });
+
+        const whatsappPhone = '5575981886263';
+        const whatsappForm = document.querySelector('[data-whatsapp-form]');
+        const formFeedback = document.querySelector('[data-form-feedback]');
+        const leadNameField = document.querySelector('#lead-name');
+        const leadPhoneField = document.querySelector('#lead-phone');
+        const summaryField = document.querySelector('#lead-summary');
+        const summaryCount = document.querySelector('[data-summary-count]');
+        
+        const cleanLeadInput = (value, maxLength) => String(value || '')
+            .normalize('NFKC')
+            .replace(/[\u0000-\u001F\u007F<>]/g, ' ')
+            .replace(/\s+/g, ' ')
+            .slice(0, maxLength);
+
+        const normalizeLeadText = (value, maxLength) =>
+            cleanLeadInput(value, maxLength).trim();
+
+        const getPhoneDigits = (value) => String(value || '')
+            .replace(/\D/g, '')
+            .slice(0, 11);
+
+        const formatBrazilPhone = (value) => {
+            const digits = getPhoneDigits(value);
+            const areaCode = digits.slice(0, 2);
+            const ninthDigit = digits.slice(2, 3);
+            const firstBlock = digits.slice(3, 7);
+            const lastBlock = digits.slice(7, 11);
+
+            if (!digits) return '';
+            if (digits.length <= 2) return `(${areaCode}`;
+            if (digits.length <= 3) return `(${areaCode}) ${ninthDigit}`;
+            if (digits.length <= 7) return `(${areaCode}) ${ninthDigit} ${firstBlock}`;
+            return `(${areaCode}) ${ninthDigit} ${firstBlock}-${lastBlock}`;
+        };
+
+        const formatPersonNameInput = (value) => cleanLeadInput(value, 80)
+            .toLocaleLowerCase('pt-BR')
+            .replace(/(^|\s)(\S)/g, (_, space, character) =>
+                `${space}${character.toLocaleUpperCase('pt-BR')}`);
+
+        const formatPersonName = (value) =>
+            formatPersonNameInput(value).trim();
+
+        const capitalizeFirstLetter = (value) => {
+            const text = String(value || '');
+            for (let index = 0; index < text.length; index += 1) {
+                const character = text.charAt(index);
+                if (character.toLocaleLowerCase('pt-BR') !== character.toLocaleUpperCase('pt-BR')) {
+                    return `${text.slice(0, index)}${character.toLocaleUpperCase('pt-BR')}${text.slice(index + 1)}`;
+                }
+            }
+            return text;
+        };
+
+        const formatCaseSummaryInput = (value) =>
+            capitalizeFirstLetter(cleanLeadInput(value, 600));
+
+        const formatCaseSummary = (value) =>
+            normalizeLeadText(formatCaseSummaryInput(value), 600);
+
+        const hasAllowedValue = (options, value) =>
+            Object.prototype.hasOwnProperty.call(options, value);
+
+        const setFeedback = (message, type = 'error') => {
+            if (!formFeedback) return;
+            formFeedback.textContent = message;
+            formFeedback.dataset.type = type;
+        };
+
+        const clearInvalidFields = () => {
+            if (!whatsappForm) return;
+            whatsappForm.querySelectorAll('[aria-invalid="true"]').forEach((field) => {
+                field.removeAttribute('aria-invalid');
+            });
+        };
+
+        const markInvalid = (fieldName) => {
+            const field = whatsappForm?.elements[fieldName];
+            if (field) {
+                field.setAttribute('aria-invalid', 'true');
+                field.focus();
+            }
+        };
+
+        const buildWhatsAppMessage = (lead) => {
+            const brandName = document.querySelector('.logo span')?.textContent?.trim() || 'Veloce Detailing';
+            return [
+                `Olá, vim pelo site da ${brandName} e preenchi o formulário de primeiro contato.`,
+                '',
+                `Nome: ${lead.name}`,
+                `WhatsApp: ${lead.phone}`,
+                `Serviço: ${lead.area}`,
+                `Status: ${lead.urgency}`,
+                '',
+                'Detalhes da solicitação:',
+                lead.summary,
+                '',
+                'Gostaria de falar com um consultor.'
+            ].join('\n');
+        };
+
+        const getLeadData = (form) => {
+            const name = formatPersonName(form.elements.name.value);
+            const phoneDigits = getPhoneDigits(form.elements.phone.value);
+            const phone = formatBrazilPhone(phoneDigits);
+            const area = form.elements.area.value;
+            const urgency = form.elements.urgency.value;
+            const summary = formatCaseSummary(form.elements.summary.value);
+            const company = normalizeLeadText(form.elements.company.value, 80);
+
+            // Populate allowed options dynamically from DOM selects
+            const allowedAreas = {};
+            const allowedUrgencies = {};
+            Array.from(form.elements.area.options).forEach(opt => {
+                if (opt.value) allowedAreas[opt.value] = opt.textContent;
+            });
+            Array.from(form.elements.urgency.options).forEach(opt => {
+                if (opt.value) allowedUrgencies[opt.value] = opt.textContent;
+            });
+
+            if (company) return { blocked: true };
+            if (name.length < 2) return { error: 'Informe seu nome.', field: 'name' };
+            if (phoneDigits.length !== 11) return { error: 'Informe um WhatsApp válido no formato (00) 9 0000-0000.', field: 'phone' };
+            if (!hasAllowedValue(allowedAreas, area)) return { error: 'Escolha o serviço de interesse.', field: 'area' };
+            if (!hasAllowedValue(allowedUrgencies, urgency)) return { error: 'Escolha o prazo desejado.', field: 'urgency' };
+            
+            const summaryMinLength = Number(form.elements.summary?.getAttribute('minlength') || '20');
+            if (summary.length < summaryMinLength) {
+                return { error: `Descreva sua solicitação com pelo menos ${summaryMinLength} caracteres.`, field: 'summary' };
+            }
+
+            return {
+                lead: {
+                    name,
+                    phone,
+                    area: allowedAreas[area],
+                    urgency: allowedUrgencies[urgency],
+                    summary
+                }
+            };
+        };
+
+        if (leadNameField) {
+            leadNameField.addEventListener('blur', () => {
+                leadNameField.value = formatPersonName(leadNameField.value);
+            });
+        }
+
+        if (leadPhoneField) {
+            leadPhoneField.addEventListener('blur', () => {
+                leadPhoneField.value = formatBrazilPhone(leadPhoneField.value);
+            });
+            // Apenas para permitir a digitação de números sem bugar o cursor
+            leadPhoneField.addEventListener('input', () => {
+                leadPhoneField.value = leadPhoneField.value.replace(/[^\d\s()-]/g, '');
+            });
+        }
+
+        if (summaryField && summaryCount) {
+            summaryField.addEventListener('input', () => {
+                summaryCount.textContent = String(summaryField.value.length);
+            });
+            summaryField.addEventListener('blur', () => {
+                summaryField.value = formatCaseSummary(summaryField.value);
+                summaryCount.textContent = String(summaryField.value.length);
+            });
+        }
+
+        if (whatsappForm) {
+            whatsappForm.addEventListener('submit', (event) => {
+                event.preventDefault();
+                clearInvalidFields();
+                setFeedback('');
+
+                const result = getLeadData(whatsappForm);
+                if (result.blocked) {
+                    setFeedback('Não foi possível enviar agora. Tente novamente em alguns minutos.');
+                    return;
+                }
+                if (result.error) {
+                    setFeedback(result.error);
+                    markInvalid(result.field);
+                    return;
+                }
+
+                const message = buildWhatsAppMessage(result.lead);
+                const whatsappUrl = `https://api.whatsapp.com/send/?phone=${whatsappPhone}&text=${encodeURIComponent(message)}`;
+                setFeedback('Abrindo o WhatsApp com os dados preenchidos...', 'success');
+                window.location.href = whatsappUrl;
+            });
+        }
+
+        const currentDateEl = document.querySelector('[data-current-date]');
+        const dateCacheKey = `footer-year:v3:${window.location.pathname || 'index.html'}`;
+        const oneDayMs = 24 * 60 * 60 * 1000;
+
+        const formatFooterDate = (date) => String(Math.max(2026, date.getFullYear()));
+
+        const setFooterDate = (dateValue) => {
+            if (currentDateEl) {
+                currentDateEl.textContent = dateValue;
+            }
+        };
+
+        const getCachedDate = () => {
+            try {
+                const cached = JSON.parse(localStorage.getItem(dateCacheKey) || '{}');
+                if (typeof cached.date === 'string' && /^\d{4}$/.test(cached.date) && Date.now() - cached.checkedAt < oneDayMs) {
+                    return cached.date;
+                }
+            } catch {
+                try {
+                    localStorage.removeItem(dateCacheKey);
+                } catch {}
+            }
+            return null;
+        };
+
+        const cacheDate = (dateValue) => {
+            try {
+                localStorage.setItem(dateCacheKey, JSON.stringify({
+                    date: dateValue,
+                    checkedAt: Date.now()
+                }));
+            } catch {}
+        };
+
+        const updateFooterDate = async () => {
+            const cachedDate = getCachedDate();
+            if (cachedDate) {
+                setFooterDate(cachedDate);
+                return;
+            }
+
+            let resolvedDate = new Date();
+            try {
+                if (window.location.protocol.startsWith('http')) {
+                    const response = await fetch(window.location.href, { method: 'HEAD', cache: 'no-store' });
+                    const serverDate = response.headers.get('Date') || response.headers.get('Last-Modified');
+                    const parsedDate = serverDate ? new Date(serverDate) : null;
+                    if (parsedDate && !Number.isNaN(parsedDate.getTime())) {
+                        resolvedDate = parsedDate;
+                    }
+                }
+            } catch {}
+
+            const formattedDate = formatFooterDate(resolvedDate);
+            setFooterDate(formattedDate);
+            cacheDate(formattedDate);
+        };
+
+        updateFooterDate();
+    </script>
+</body>
+</html>
+

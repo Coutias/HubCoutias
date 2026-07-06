@@ -1,0 +1,3 @@
+/*.json   /index.html  403!
+/data/*   /index.html  403!
+/*        /index.html  200
