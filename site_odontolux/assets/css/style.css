@@ -159,3 +159,56 @@ input[aria-invalid="true"], select[aria-invalid="true"], textarea[aria-invalid="
     .fab-instagram { right: 80px; bottom: 20px; width: 45px; height: 45px; }
     .fab svg { width: 24px; height: 24px; }
 }
+
+
+/* =========================================================
+   RESET DE DIMENSIONAMENTO AUTOMÁTICO UNIVERSAL (STUDIO COUTIAS)
+   ========================================================= */
+*, *::before, *::after {
+  box-sizing: border-box !important;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100% !important;
+}
+
+body {
+  overflow-x: hidden !important;
+}
+
+img, picture, svg, canvas, video, iframe, embed, object {
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+input, textarea, select, button {
+  max-width: 100% !important;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, a, li, td, th {
+  overflow-wrap: break-word !important;
+  word-wrap: break-word !important;
+  hyphens: auto !important;
+}
+
+.container, .wrapper, .site-shell {
+  width: min(100% - 2rem, 1280px) !important;
+  max-width: 100% !important;
+  margin-inline: auto !important;
+  box-sizing: border-box !important;
+}
+
+@media (max-width: 768px) {
+  .site-header {
+    flex-wrap: wrap !important;
+    gap: 1rem !important;
+    padding-inline: 1rem !important;
+  }
+  .desktop-nav, .nav-links {
+    display: none !important;
+  }
+  .mobile-menu-button {
+    display: flex !important;
+  }
+}

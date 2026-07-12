@@ -58,7 +58,7 @@ img { max-width: 100%; height: auto; display: block; }
 
 /* Hero */
 .hero { padding: 180px 0 120px; background: var(--hero-bg-gradient); min-height: 100vh; display: flex; align-items: center; position: relative; overflow: hidden; }
-.hero::before { content: ''; position: absolute; width: 600px; height: 600px; background: var(--primary-glow); filter: blur(100px); border-radius: 50%; right: -100px; top: 10%; z-index: 0; pointer-events: none; }
+.hero::before { content: ''; position: absolute; width: min(100%, 600px); min-height: 600px; background: var(--primary-glow); filter: blur(100px); border-radius: 50%; right: -100px; top: 10%; z-index: 0; pointer-events: none; }
 .hero-inner { display: grid; grid-template-columns: 1.2fr 1fr; gap: 60px; align-items: center; position: relative; z-index: 1; }
 .badge { display: inline-block; padding: 8px 16px; background: rgba(255, 69, 0, 0.1); color: var(--primary); border-radius: 50px; font-size: 0.875rem; font-weight: 700; margin-bottom: 24px; }
 .hero h1 { font-size: 4.5rem; margin-bottom: 24px; }
@@ -164,4 +164,57 @@ input[aria-invalid="true"], select[aria-invalid="true"], textarea[aria-invalid="
     .fab-whatsapp { right: 20px; bottom: 20px; width: 56px; height: 56px; }
     .fab-instagram { right: 90px; bottom: 22px; width: 48px; height: 48px; }
     .fab svg { width: 26px; height: 26px; }
+}
+
+
+/* =========================================================
+   RESET DE DIMENSIONAMENTO AUTOMÁTICO UNIVERSAL (STUDIO COUTIAS)
+   ========================================================= */
+*, *::before, *::after {
+  box-sizing: border-box !important;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100% !important;
+}
+
+body {
+  overflow-x: hidden !important;
+}
+
+img, picture, svg, canvas, video, iframe, embed, object {
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+input, textarea, select, button {
+  max-width: 100% !important;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, a, li, td, th {
+  overflow-wrap: break-word !important;
+  word-wrap: break-word !important;
+  hyphens: auto !important;
+}
+
+.container, .wrapper, .site-shell {
+  width: min(100% - 2rem, 1280px) !important;
+  max-width: 100% !important;
+  margin-inline: auto !important;
+  box-sizing: border-box !important;
+}
+
+@media (max-width: 768px) {
+  .site-header {
+    flex-wrap: wrap !important;
+    gap: 1rem !important;
+    padding-inline: 1rem !important;
+  }
+  .desktop-nav, .nav-links {
+    display: none !important;
+  }
+  .mobile-menu-button {
+    display: flex !important;
+  }
 }
